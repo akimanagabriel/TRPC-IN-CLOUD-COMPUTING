@@ -35,16 +35,15 @@ The API exposes procedures to **fetch blog posts** from an in-memory data source
 ├── tsconfig.json <br>
 └── README.md<br>
 
-
 ---
 
 ## 📦 Installation
 
 1. Clone the repository:
-   
+
 ```bash
    git clone https://github.com/akimanagabriel/TRPC-IN-CLOUD-COMPUTING
-   cd <project-folder>
+   cd TRPC-IN-CLOUD-COMPUTING
 ```
 
 Install dependencies:
@@ -82,7 +81,7 @@ Type: Query
 Input:
 
 {
-  id: number
+id: number
 }
 Description: Fetches a single post by its ID.
 If the post is not found, an error is returned.
