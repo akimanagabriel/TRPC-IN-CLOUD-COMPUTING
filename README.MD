@@ -1,3 +1,9 @@
+# GROUP 3
+- 1	NSHIMIYIMANA Jean Nepo
+- 2	HAKIZIMANA Theogene
+- 3	AKIMANA Gabriel
+- 4	HABIMANA Sixbert
+
 # tRPC Express API (TypeScript)
 
 This project is a simple **tRPC server built with Express and TypeScript**.  
