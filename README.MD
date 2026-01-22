@@ -30,10 +30,10 @@ The API exposes procedures to **fetch blog posts** from an in-memory data source
 ## 📁 Project Structure
 
 .
-├── server.ts # Main server file
-├── package.json
-├── tsconfig.json
-└── README.md
+├── server.ts # Main server file <br>
+├── package.json <br>
+├── tsconfig.json <br>
+└── README.md<br>
 
 
 ---
@@ -41,16 +41,25 @@ The API exposes procedures to **fetch blog posts** from an in-memory data source
 ## 📦 Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
+   
+```bash
+   git clone https://github.com/akimanagabriel/TRPC-IN-CLOUD-COMPUTING
    cd <project-folder>
+```
+
 Install dependencies:
 
+```bash
 npm install
+```
+
 ▶️ Running the Server
 Start the development server:
 
+```bash
 npm run dev
+```
+
 or if you are using ts-node directly:
 
 npx ts-node server.ts
