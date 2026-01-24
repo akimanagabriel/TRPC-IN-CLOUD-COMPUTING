@@ -1,4 +1,3 @@
-// server.ts
 import { initTRPC } from "@trpc/server";
 import * as trpcExpress from "@trpc/server/adapters/express";
 import express from "express";
@@ -34,7 +33,7 @@ const posts = [
   },
 ];
 
-// Define your routers
+// Define routes routers
 const appRouter = router({
   // Get all posts
   getAllPosts: publicProcedure.query(() => posts),
